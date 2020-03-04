@@ -19,7 +19,7 @@ class ApplicationController < ActionController::Base
     enhanced_cart.map {|entry| entry[:product].price_cents  * entry[:quantity]}.sum
   end
   helper_method :cart_subtotal_cents
-
+  helper_method :current_user
 
   def update_cart(new_cart)
     cookies[:cart] = {
