@@ -9,8 +9,8 @@ if user.save
   redirect_to '/'
 else
   redirect_to '/signup'
-  end  
 end
+  end
 private
 def user_params
   params.require(:user).permit(
@@ -20,4 +20,4 @@ def user_params
       :password_confirmation
   )
 end
-end 
+end
