@@ -13,18 +13,17 @@
     <table class="table table-bordered">
       <thead>
         <tr>
-          <th >Name</th>
+          <th>Name</th>
           <th>Start Date</th>
           <th>End Date</th>
           <th>Status</th>
-          <th>Percent Off</th>
+          <th>Percent off</th>
         </tr>
       </thead>
       <tbody>
-<%# <%= render @sales %> 
-<% @sales.each do |s| %>
-<%= render 'sale', sale: s %>
-<% end %>
+     <% @sales.each do |s| %>
+     <%= render 'sale', sale: s %>
+ <% end %>
       </tbody>
     </table>
 
