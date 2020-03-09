@@ -9,7 +9,7 @@ class User < ActiveRecord::Base
     validates :email, uniqueness: { case_sensitive: false }
     def authenticate_with_credentials(param_email, params_password)
       email = param_email.delete(" ").downcase
-      user = User.where("lower(email) = ?", email.downcase).first
+      user = User.find_by_email(email)
 
       if user && user.authenticate(params_password)
         return user
