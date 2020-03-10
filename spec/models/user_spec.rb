@@ -92,7 +92,7 @@ describe User, type: :module do
       )
       @user.save!
 
-      login = @user.authenticate_with_credentials("    Layth.jabbar@yahoo.com", @user.password)
+      login = @user.authenticate_with_credentials("    hayder @yahoo.com", @user.password)
       expect(login).to be_truthy
     end
     it "is not valid if password has less than 8 numbers" do
