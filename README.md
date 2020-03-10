@@ -34,6 +34,7 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 ## Final Product
 
 Main Page:
+![Admin page](https://github.com/Hayder-Suwaed/jungle-project/blob/master/app/assets/images/1.png?raw=true)
 
 !["Main page"](https://github.com/Hayder-Suwaed/jungle-project/blob/master/app/assets/images/4.png?raw=true)
 
@@ -47,7 +48,6 @@ Cart:
 
 Admin Page:
 
-![Admin page](https://github.com/Hayder-Suwaed/jungle-project/blob/master/app/assets/images/1.png?raw=true)
 
 ## Dependencies
 
